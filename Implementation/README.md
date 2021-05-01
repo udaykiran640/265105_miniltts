@@ -10,6 +10,7 @@ The project.db has two accounts:
 |------------|-------|-------|--------|
  uday |9876543210 |1234 |uday@mail.com|
 kiran|1234567890| 1234|kiran@mail.com|
+uday kiran|1223334444|1234|udaykiran@mail.com
 
 You can access these accounts by logging in or can
 also create your own account by signing in.
