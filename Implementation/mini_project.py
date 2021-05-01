@@ -2,8 +2,9 @@ import sqlite3
 conn = sqlite3.connect('project.db')
 c = conn.cursor()
 #c.execute("""CREATE TABLE usertable (name text, mail text, mobile text PRIMARY KEY, password text)""")
-
 #c.execute("""CREATE TABLE accounttable (accoun_balace int, mobile text)""")
+"""remove the comments in above two lines if you execute without project.db file and comment the same
+two lines once you execute the mini_project.py"""
 conn.commit()
 conn.close()
 
